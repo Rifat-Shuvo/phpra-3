@@ -11,12 +11,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
 </head>
 <body>
     <header>
       <!-- navbar starts here -->
 
-      <div class="navbar bg-[#F85559] text-white max-w-screen-lg mx-auto mt-6 rounded-full px-10">
+      <div class="navbar bg-[#F85559] text-white max-w-screen-xl mx-auto mt-6 rounded-full px-10">
         <div class="navbar-start">
           <div class="">
             <ul class="flex mt-3 z-[1] p-2 bg-[#F85559] gap-5">
@@ -41,7 +43,7 @@
 
       <!-- navbar ends here -->
 <!-- banner section starts here -->
-      <section class="max-w-screen-lg mx-auto mt-10 ">
+      <section class="max-w-screen-xl mx-auto mt-10 ">
         <div class="carousel w-full rounded-xl">
           <div id="slide1" class="carousel-item relative w-full">
             <div class="hero" style="background-image: url(./images/banner1.png);">
@@ -115,14 +117,14 @@
 
     <main>
       <!-- deal of the day section starts here -->
-      <section class="flex gap-4 justify-between max-w-screen-lg mx-auto mt-[140px]">
+      <section class="max-w-screen-xl mx-auto mt-[140px] flex gap-4 flex-wrap justify-between p-3">
         <div class="">
           <h1 class="text-4xl font-bold text-black">
             Deal of the day
           </h1>
           <p class="mt-3">
             Contrary to popular belief, is not simply random text. It has roots in a piece of classical
-            Latin literature from 45 BC, making it over 2000 years old
+            Latin <br> literature from 45 BC, making it over 2000 years old
           </p>
         </div>
         <div>
@@ -164,7 +166,7 @@
         </div>
       </section>
 <!-- card section starts -->
-     <section class="grid mt-10 md:grid-cols-2 lg:grid-cols-4">
+     <section class="grid gap-4 mt-10 max-w-screen-xl mx-auto md:grid-cols-2 lg:grid-cols-4">
      
       <div class="card w-auto shadow-xl">
         <figure class="px-10 pt-10">
@@ -396,8 +398,92 @@
         </div>
       </div>
 
+
+
      </section>
-  
+     
+     <div class="flex align-middle justify-center my-11">
+      <button class="btn normal-case bg-[#f85559] text-white">Shop All</button>
+     </div>
+ <!-- meet the team section starts from here -->
+     <section class="max-w-screen-xl mx-auto">
+
+      <div class="hero min-h-[50vh]" style="background-image: url(./images/banner1.png);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="text-white py-16">
+          <div class="flex justify-center mt-7">
+            <div class="text-center max-w-md">
+              <h1 class="mb-5 text-3xl font-bold">Meet the team section</h1>
+              <p class="mb-5 text-base">Contrary to popular belief, is not simply random text. It has roots in a piece of classical 
+                Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+          </div>
+          <div class=" grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+            <div class="card w-auto bg-transparent">
+              <figure class="px-10 pt-10">
+                <img src="./images/member1.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Awlad Hossain</h2>
+                <p>Fruits Expert</p>
+                <div class="flex gap-3">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card w-auto bg-transparent">
+              <figure class="px-10 pt-10">
+                <img src="./images/member2.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Safia Chowdhury</h2>
+                <p>Fruits Expert</p>
+                <div class="flex gap-3">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card w-auto bg-transparent">
+              <figure class="px-10 pt-10">
+                <img src="./images/member3.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Rokib Hossain</h2>
+                <p>Fruits Expert</p>
+                <div class="flex gap-3">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card w-auto bg-transparent">
+              <figure class="px-10 pt-10">
+                <img src="./images/member4.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Chaity</h2>
+                <p>Fruits Expert</p>
+                <div class="flex gap-3">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+      
+      
+     </section>
+
+     
     </main>
 
     <footer>
